@@ -9,7 +9,7 @@ class RWeb
     self.IPAddress = ip_address
     self.Port = port
     
-    self.Connections = connections
+    @Connections = connections
 
     @Server = TCPServer.new(ip_address, port)
   end
